@@ -1,0 +1,380 @@
+/* */
+
+/*fuente*/
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+@media(max-width: 1200px) {
+
+
+    #contenedor{
+       grid-template-columns: auto;
+      }
+}
+
+
+@media(max-width: 768px) {
+
+}
+
+@media(max-width: 320px) {
+    #contenedor{
+        
+        grid-template-rows: 2fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "r1""r2""r3";
+        grid-column-gap: 5px;  
+        margin: 5px;
+    }
+ }
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+header {
+    background-color: #5faaae;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-bottom: 6px;
+}
+
+.logo h2 {
+    color: #292F2F;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-size: 45px;
+}
+
+nav a{
+    font-weight: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    color: #292F2F;
+    font-size: 20px;
+}
+
+h1 {
+    color: #292F2F;
+    padding: 10px;
+    margin: 40px 40px 0px 40px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.parrafoinicio {
+    color: #292F2F;
+    padding: 10px;
+    margin: 40px 50px 40px;
+    text-align: center;
+    font-size: 150px;
+}
+
+
+.iniciopage {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "box1 box2 box3";
+    grid-column-gap: 15px;
+ }
+
+.inicio h2 {
+    color: #27a9b0;
+    padding: 20px;
+}
+
+
+.inicio p {
+    text-align: center;
+    font-size: 15px;
+    color: #292F2F;
+    padding: 30px;
+    font-size: 26px;
+}
+
+p {
+    color: #3a4141;
+    font-size: 19px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+
+.box1 {
+    background-color: rgba(98, 227, 229, 0.07);
+    width: 330px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid rgba(98, 227, 229, 0.07);
+    overflow: hidden;
+    border-radius: 12px;
+    grid-area: box1;
+}
+
+.box2 {
+    background-color: rgba(98, 227, 229, 0.07);
+    width: 330px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid rgba(98, 227, 229, 0.07);
+    overflow: hidden;
+    border-radius: 12px;
+    grid-area: box2;
+}
+
+.box3 {
+    background-color: rgba(98, 227, 229, 0.07);
+    width: 330px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid rgba(98, 227, 229, 0.07);
+    overflow: hidden;
+    border-radius: 12px;
+    grid-area: box3;
+}
+
+h2 {
+    text-align: center;
+    color: #27a9b0;
+    font-size: 37px;
+    padding: 40px;
+    margin-right: 30px;
+}
+
+.inicio img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+svg {
+    padding: 20px;
+    margin: 30px 50px 30px 50px;
+}
+
+.tha {
+    border-radius: 1%;
+    transition: width .25s, box-shadow .5s;
+    width: 300px;
+    margin: 7px;
+    height: 370px;
+}
+
+.tha:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width: 330px;
+}
+
+.arg {
+    border-radius: 1%;
+    transition: width .25s, box-shadow .5s;
+    width: 300px;
+    margin: 7px;
+    height: 370px;
+}
+
+.arg:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width: 330px;
+}
+
+.ita {
+    border-radius: 1%;
+    transition: width .25s, box-shadow .5s;
+    width: 300px;
+    margin: 7px;
+    height: 370px;
+}
+
+.ita:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width: 330px;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    place-content: center center;
+}
+
+.container path {
+    fill: #E3EDED;
+    stroke: black;
+}
+
+.container .Argentina {
+    fill: #63C0C4;
+}
+
+.container .Colombia {
+    fill: #63C0C4;
+}
+
+
+.container .France {
+    fill: #63C0C4;
+}
+
+.container .Spain {
+    fill: #63C0C4;
+}
+
+.container .Italy {
+    fill: #63C0C4;
+}
+
+.container .Thailand {
+    fill: #63C0C4;
+}
+
+.container .Maldives {
+    fill: #63C0C4;
+}
+
+.container .India {
+    fill: #63C0C4;
+}
+
+.container .Germany {
+    fill: #63C0C4;
+}
+
+
+.container .Mexico {
+    fill: #63C0C4;
+}
+
+
+h3 {
+    color: #1b7373;
+    font-size: 30px;
+    padding: 15px;
+    margin-left: 3px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    color: #292F2F;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: #093739;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 9px;
+
+}
+
+.tips {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "tip1 tip2 tip3";
+    grid-column-gap: 15px;
+}
+
+.tip1 {
+    background-color: rgba(98, 227, 229, 0.07);
+    width: 330px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid rgba(98, 227, 229, 0.07);
+    overflow: hidden;
+    border-radius: 12px;
+    grid-area: tip1;
+}
+
+.tip2 {
+    background-color: rgba(98, 227, 229, 0.07);
+    width: 330px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid rgba(98, 227, 229, 0.07);
+    overflow: hidden;
+    border-radius: 12px;
+    grid-area: tip2;
+}
+
+.tip3 {
+    background-color: rgba(98, 227, 229, 0.07);
+    width: 330px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid rgba(98, 227, 229, 0.07);
+    overflow: hidden;
+    border-radius: 12px;
+    grid-area: tip3;
+}
+
+.tip1 {
+    background-color: #beeeeb;
+    transition: background-color 2s linear; 
+}
+
+.tip1:hover {
+    background-color: #EAD1DE;
+    transition: background-color 2s linear;
+}
+
+.tip2 {
+    background-color: #beeeeb;
+    transition: background-color 2s linear; 
+}
+
+.tip2:hover {
+    background-color: #EAD1DE;
+    transition: background-color 2s linear;
+}
+
+.tip3 {
+    background-color: #beeeeb;
+    transition: background-color 2s linear; 
+}
+
+.tip3:hover {
+    background-color: #EAD1DE;
+    transition: background-color 2s linear;
+}

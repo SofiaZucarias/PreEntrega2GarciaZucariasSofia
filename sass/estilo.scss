@@ -1,1 +1,41 @@
+@mixin fontStyle ($color, $fontSize){
+    color: #292F2F;
+
+    
+}
+
+
+
+// estilos scss
+
+ul {
+    list-style-type: none;
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            @include fontStyle(#292F2F, 20px) ;
+            
+        }
+
+    }
+}
+
+h1 {
+    @include fontStyle(#292F2F, 60px )
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5faaae;
+}
+
+
 

@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #292F2F;
+}
+
+h1 {
+  color: #292F2F;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5faaae;
+}/*# sourceMappingURL=estilo.css.map */

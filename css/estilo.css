@@ -7,8 +7,9 @@
 @media screen (max-width:768px) {
     .inicio {
         width: 100%;
-         
+           
     }
+
 
     .col {
         width: 100%;
@@ -35,6 +36,7 @@
     .container svg {
         width: 100%;
     }
+   
 }
 
 @media screen and (max-width:576px) {
@@ -67,8 +69,15 @@
 
     .container svg {
         width: 100%;
+        margin: 0%;
+        padding: 0%;
     }
+
+   
 }
+
+
+
 
 .card-body h5 {
     color: #5faaae;
@@ -101,10 +110,10 @@
 
 header {
     background-color: #5faaae;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 80px;
     align-items: center;
 }
 

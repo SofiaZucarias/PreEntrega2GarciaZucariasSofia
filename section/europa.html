@@ -4,31 +4,45 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viajes" content="viajes, visa, europa, asia, américa, tips para viajes">
-        <title>Document</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="../img/284981.png">
+        <meta name="description" content="blog de viajes para turistas"/>
+        <meta name="keywords" content="viajes, visa, europa, asia, américa, tips para viajes">
+        <title>DE TURISTA- Blog de viajes</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/estilo.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
     </head>
     <body>
         
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light celeste">
+        <nav class="navbar navbar-expand-lg navbar-light celeste" >
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
                 <img src="../img/284981.png" alt="logo" width="70" height="60">
                 <span>DE TURISTA</span>
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav" >
-                  <a class="nav-link" href="./america.html">AMÉRICA</a>
-                  <a class="nav-link" href="./asia.html">ASIA</a>
-                  <a class="nav-link" href="./europa.html">EUROPA</a>
-                  <a class="nav-link" href="./tipsviajeros.html">TIPS VIAJEROS</a>
-                </div>
-              </div>
+              <div class="navbar-collapse collapse show" id="navbarNav" style>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="../section/america.html">AMÉRICA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../section/asia.html">ASIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../section/europa.html">EUROPA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../section/tipsviajeros.html">TIPS VIAJEROS</a>
+                    </li>
+                </ul>
+           
             </div>
         </nav>
         
@@ -40,199 +54,157 @@
                 <h2>ITALIA</h2>
     
                 <h3>Consejos para viajar a Italia</h3>
-                <h4>¿Cuándo viajar?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo esse, ex minima explicabo assumenda itaque sequi incidunt, iste nostrum laudantium totam cumque soluta delectus ut beatae! Aliquid, quasi aliquam.</p>
-                <h4>Cómo manejarse en Italia</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, hic? Explicabo, eos. Nemo illum quas optio illo ut fugiat eius, distinctio recusandae. Sequi fugit quidem consequatur cum, blanditiis itaque quas!</p>
-                <h4>Qué comer</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis accusamus ad praesentium eaque ab at voluptate vero aut iste. Repellendus voluptatem rem ea quas nulla, repudiandae soluta officiis facilis.</p>
-                <h4>Alojamiento</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit iste ipsam recusandae eaque eveniet harum earum beatae veniam aperiam corrupti maiores perferendis fugit, et ut vitae tempora necessitatibus obcaecati.</p>
-                <h4>Cómo gestionar tiempos y días</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet nulla est cum vero, vel laudantium, inventore magni sapiente, aliquam earum rerum voluptatum. Excepturi rem quaerat harum! Assumenda, incidunt vero. Quae!</p>
-    
+
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Cuándo viajar?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Este es un factor que depende mucho de cada uno, ya que el clima en Italia varía del norte al sur. Aunque podríamos considerar que en general, la mejor época es primavera, de abril a junio, o en otoño entre septiembre y octubre.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Qué comer?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Italia es cuna de muchas comidas y bebidas. Entre ellas las mas destacadas (y realmente las mejores) son: las pastas, los gnocchi al ragú (o dicho más criollo, ñoquis), pizzas, lasagnas, el tiramisú y obviamente, el vino.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Cómo gestionar tiempos y días
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Lo primero que hay que saber es que no se puede ver TODO lo que ofrece Italia en pocos días. Lo mejor es hacer diferentes viajes o centrar los días en una zona bien concreta. Y si la estadía es corta, los lugares imperdibles son: Venecia, Florencia y Roma, sin lugar a dudas.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
                 <h3>Imperdibles de Italia</h3>
     
     
                 <h4>Roma</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam totam ut consequuntur nihil dolores est, provident adipisci saepe, perspiciatis quasi enim ad fuga accusamus. Magnam quidem alias aliquam voluptate neque!</p>
-                <div class="card bg-dark text-white">
-                  <img src="..." class="card-img" alt="...">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                  </div>
-                </div>
+                <p>"La ciudad Eterna", llena de monumentos y calles que te hace viajar a traves del tiempo. Los atractivos turísticos más conocidos son la bellísima Fontana Di Trevi, y el majestuoso Coliseo Romano.</p>
+                
+
                 <h4>Venecia</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita molestias quae obcaecati, porro magnam molestiae ullam ad dolorem harum? Praesentium eos autem ea est velit tempora sit corporis nulla qui.</p>
-                <div class="card bg-dark text-white">
-                  <img src="..." class="card-img" alt="...">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                 
-                  </div>
-                </div>
+                <p>Venecia es un conjunto de 120 islas unidas a través de puentes, es una ciudad única en el mundo y completamente diferente al resto. Visitarla es sinónimo de volver completamente enamorado.</p>
+                
+
                 <h4>Pompeya</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod dolorum beatae non, excepturi eius, mollitia dicta ut eveniet, reiciendis molestias aliquam magni fugiat voluptatibus ipsa perferendis impedit animi vero?</p>
-                <div class="card bg-dark text-white">
-                  <img src="..." class="card-img" alt="...">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    
-                  </div>
-                </div>
+                <p>Pompeya es un libro abierto sobre la vida romana: sus gustos, sus comidas, su arte, sus relaciones sociales, sus vicios. Conocer Pompeya es concoer la Italia más pura de la antiguedad.</p>
+              
+
                 <h4>Toscana</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla sunt quasi pariatur debitis, sed aperiam repellendus quisquam cupiditate laborum tempore corrupti quidem similique delectus beatae nobis, iusto, animi corporis ipsa!</p>
-                <div class="card bg-dark text-white">
-                  <img src="..." class="card-img" alt="...">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    
-                  </div>
-                </div>
-                <h4>Friuli Venezia Julia</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aspernatur odio, illo vitae quis cupiditate aliquid commodi esse minima ipsum voluptate! Voluptatum distinctio delectus quis sapiente libero, labore quibusdam mollitia!</p>
-                <div class="card bg-dark text-white">
-                  <img src="..." class="card-img" alt="...">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Card title</h5>
-                    
-                  </div>
-                </div>
-    
-                <h2>ALEMANIA</h2>
-    
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi vel recusandae sunt iste hic, eveniet mollitia laudantium, iusto cum repudiandae aliquid ipsa ut delectus nisi necessitatibus temporibus nobis, esse deserunt?</p>
-    
-                <h3>Consejos para viajar a Alemania</h3>
-                <h4>¿Cuándo viajar?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo esse, ex minima explicabo assumenda itaque sequi incidunt, iste nostrum laudantium totam cumque soluta delectus ut beatae! Aliquid, quasi aliquam.</p>
-                <h4>Transporte en Alemania</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, hic? Explicabo, eos. Nemo illum quas optio illo ut fugiat eius, distinctio recusandae. Sequi fugit quidem consequatur cum, blanditiis itaque quas!</p>
-                <h4>¿Qué comer?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis accusamus ad praesentium eaque ab at voluptate vero aut iste. Repellendus voluptatem rem ea quas nulla, repudiandae soluta officiis facilis.</p>
-                <h4>Alojamiento</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit iste ipsam recusandae eaque eveniet harum earum beatae veniam aperiam corrupti maiores perferendis fugit, et ut vitae tempora necessitatibus obcaecati.</p>
-                
-                <h3>Ahora lo importante, qué ver y hacer en Alemania</h3>
-                <h4>Munich, Berlín y Frankfurt</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam totam ut consequuntur nihil dolores est, provident adipisci saepe, perspiciatis quasi enim ad fuga accusamus. Magnam quidem alias aliquam voluptate neque!</p>
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="..." class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Munich</h5>
-    
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img src="..." class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Berlín</h5>
-                        
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <img src="..." class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Frankfurt</h5>
-                        
-                      </div>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-                <h4>Castillos de cuentos de princesas (literalmente)</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita molestias quae obcaecati, porro magnam molestiae ullam ad dolorem harum? Praesentium eos autem ea est velit tempora sit corporis nulla qui.</p>
-                <img src="" alt="castillos">
-                <h4>Rothenburg ob der Tauber</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quod dolorum beatae non, excepturi eius, mollitia dicta ut eveniet, reiciendis molestias aliquam magni fugiat voluptatibus ipsa perferendis impedit animi vero?</p>
-                <img src="" alt="">
-                <h4>Oktoberfest</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla sunt quasi pariatur debitis, sed aperiam repellendus quisquam cupiditate laborum tempore corrupti quidem similique delectus beatae nobis, iusto, animi corporis ipsa!</p>
-                <img src="" alt="birra">
-                
-                <h4>Un poco de historia</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aspernatur odio, illo vitae quis cupiditate aliquid commodi esse minima ipsum voluptate! Voluptatum distinctio delectus quis sapiente libero, labore quibusdam mollitia!</p>
-                <img src="" alt="">
+                <p>La Toscana es el alma tranquila de Italia, rodeada de islas, colinas y playas. El Valle del Arno y el interior de Toscana. Pisa, Lucca, Florencia, ciudades llenas de paisajes inolvidables.</p>
+
     
                 <h2>ESPAÑA</h2>
     
                 <h3>Consejos para viajar a España</h3>
-                <h4>¿Cuándo viajar?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo esse, ex minima explicabo assumenda itaque sequi incidunt, iste nostrum laudantium totam cumque soluta delectus ut beatae! Aliquid, quasi aliquam.</p>
-                <h4>Cómo manejarse en España</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, hic? Explicabo, eos. Nemo illum quas optio illo ut fugiat eius, distinctio recusandae. Sequi fugit quidem consequatur cum, blanditiis itaque quas!</p>
-                <h4>Qué comer</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis accusamus ad praesentium eaque ab at voluptate vero aut iste. Repellendus voluptatem rem ea quas nulla, repudiandae soluta officiis facilis.</p>
-                <h4>Alojamiento</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit iste ipsam recusandae eaque eveniet harum earum beatae veniam aperiam corrupti maiores perferendis fugit, et ut vitae tempora necessitatibus obcaecati.</p>
-                <h4>Qué llevar en la valija</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet nulla est cum vero, vel laudantium, inventore magni sapiente, aliquam earum rerum voluptatum. Excepturi rem quaerat harum! Assumenda, incidunt vero. Quae!</p>
-    
-    
-                <h3>Imperdibles de España</h3>
-    
-                <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed" style="font-size: 20px" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Barcelona
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Cuándo viajar?
                       </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">principales atracciones, dónde comer, qué hacer</div>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>En verano, por lo general, hace mucho calor, y en invierno puede hacer mucho mucho frío. Por lo que al igual que Italia, la época ideal es en primavera-otoño.</p>
+                      </div>
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                      <button class="accordion-button collapsed" style="font-size: 20px" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Te dejo en Madrid, como Shaki
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Qué comer?
                       </button>
                     </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">principales atracciones, dónde comer, qué hacer</div>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>España tiene de las mejores comidas del mundo, y muy variadas. La paella y la tortilla de papas son las mas conocidas y definitivamente una de las mejores cosas de este país.</p>
+                      </div>
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                      <button class="accordion-button collapsed" style="font-size: 20px" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Ibiza
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Qué llevar en la valija
                       </button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">principales atracciones, fiestas, qué hacer</div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                      <button class="accordion-button collapsed" style="font-size: 20px" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Pueblos para escapaditas
-                      </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">un poco de historia, pueblos medievales</div>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>Aunque esto varia según la época del año en la que cada uno vaya, es indispensable (y cero negociable) por lo menos un par de zapatillas cómodas, ya que es mucho lo que se recorre caminando, y también ropa liviana para el día. </p>
+                      </div>
                     </div>
                   </div>
                 </div>
+                
+    
+                <h3>Imperdibles de España</h3>
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="../img/parque guell.jpeg" class="card-img-top" alt="Parque Guel">
+                      <div class="card-body">
+                        <h5 class="card-title">Barcelona</h5>
+                        <p class="card-text">Barcelona es una ciudad con mucha vida, hermosa para tursitear y para vivir también. Algunos imperdibles son: la Sagrada Familia, el Mercado de la Boquería, un recorrido por la Barceloneta, el Park Güell, entre muchas actividades mas.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="../img/madrid.jpeg" class="card-img-top" alt="Madrid">
+                      <div class="card-body">
+                        <h5 class="card-title">Te dejo en Madrid, como Shaki</h5>
+                        <p class="card-text">Shaki no se equivoca nunca, pero quedarse en Madrid no está nada mal. La capital de España, llena de cosas para hacer. Desde un paseo por el parque del Retiro, o unas compras por el barrio de Salamanca, hasta un hermoso  atardecer frente al templo de Debod. Yo la llamaría la otra ciudad de la furia.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="../img/ibiza.jpeg" class="card-img-top" alt="Ibiza">
+                      <div class="card-body">
+                        <h5 class="card-title">Ibiza</h5>
+                        <p class="card-text">Aunque sea mas conocida como la capital de las fiestas, Ibiza cuentas con hermosas playas paradisíacas, llenas de magia. Las puestas de sol en estas playas son de esas cosas que te hacen pensar lo lindo que es estar vivo (y además las fiestas, guiño guiño)  </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Pueblos para escapaditas</h5>
+                        <p class="card-text">Aparte de las grandes ciudades, España tiene desde pueblos entre montañas, hasta hermosas joyas costeras. Algunos de ellos son: Vejer de la Frontera (Cádiz), Medinaceli (Soria), Elizondo (Navarra), Bárcena Mayor (Cantabria), Moratalla (Murcia). </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                
                 
                 <h2>FRANCIA</h2>
     
                 <h3>Consejos para viajar a Francia</h3>
                 <h4>¿Cuándo viajar?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo esse, ex minima explicabo assumenda itaque sequi incidunt, iste nostrum laudantium totam cumque soluta delectus ut beatae! Aliquid, quasi aliquam.</p>
+                <p>Sin dudas la mejor época para viajar a Francia son los meses de mayo, julio y agosto. Aunque es la temporada alta y los precios se disparan, el clima es el ideal.  </p>
                 <h4>Cómo manejarse en París</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, hic? Explicabo, eos. Nemo illum quas optio illo ut fugiat eius, distinctio recusandae. Sequi fugit quidem consequatur cum, blanditiis itaque quas!</p>
                 <h4>Qué comer y dónde comer</h4>
@@ -261,15 +233,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Costa Azul</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                      </div>
-                    </div>
-                  </div>
+                  
                   <div class="col">
                     <div class="card">
                       <img src="..." class="card-img-top" alt="...">
@@ -288,25 +252,44 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col">
-                    <div class="card">
-                      <img src="..." class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Mont Saint-Michel</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  
     
     
             </section>
           </main>
     
           <footer>
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
+            <div class="bg-texture">
+                <div class="container-xxl container-md container-sm bg-black px-0 pb-3">
+        
+                    <div class="container pt-4">
+                        <div class="row row-cols-1 row-cols-xxl-2 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 g-3">
+        
+                            <div class="col px-3 logo-white justify-content-md-end justify-content-sm-center">
+                                <a href="../index.html" class=" d-flex justify-content-md-start justify-content-sm-center ">
+                                </a>
+                                <p class="text-dark text-md-start text-sm-center py-2">© 2022 <b>DE TURISTA</b> - Todos los derechos reservados.
+                                </p>
+                            </div>
+        
+                            <div class="col px-3">
+                                <ul class="nav logo-white justify-content-md-end justify-content-sm-center">
+                                    <li class="nav-item mx-2"><a href="https://twitter.com/" target="_blank">
+                                            <i class="bi bi-twitter fs-5"></i>
+                                        </a></li>
+                                    <li class="nav-item mx-2"><a href="https://www.instagram.com/?hl=es-la" target="_blank">
+                                            <i class="bi bi-instagram fs-5"></i>
+                                        </a></li>
+                                    <li class="nav-item mx-2"><a href="https://www.facebook.com/home.php" target="_blank">
+                                            <i class="bi bi-facebook fs-5"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
           </footer>
     
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
